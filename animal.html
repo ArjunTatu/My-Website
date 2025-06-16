@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animals - Nature World</title>
+  <link rel="stylesheet" href="animal.css">
+</head>
+<body class="animal-body">
+
+  <div class="animal-container">
+    <h1 class="animal-title">Explore the Animal Kingdom</h1>
+    
+    <div class="animal-grid">
+      <!-- Animal cards -->
+      <div class="animal-card" onclick="showInfo('tiger')">
+        <img src="tiger.jpg" alt="Tiger">
+        <p>Tiger</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('lion')">
+        <img src="lion.jpg" alt="Lion">
+        <p>Lion</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('elephant')">
+        <img src="elephant.jpg" alt="Elephant">
+        <p>Elephant</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('deer')">
+        <img src="deer.jpg" alt="Deer">
+        <p>Deer</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('giraffe')">
+        <img src="giraff.jpg" alt="Giraffe">
+        <p>Giraffe</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('zebra')">
+        <img src="zebra.jpg" alt="Zebra">
+        <p>Zebra</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('bear')">
+        <img src="bear.jpg" alt="Bear">
+        <p>Bear</p>
+      </div>
+      <div class="animal-card" onclick="showInfo('wolf')">
+        <img src="wolf.jpg" alt="Wolf">
+        <p>Wolf</p>
+      </div>
+    </div>
+
+    <div id="animal-info-box">
+      <h2 id="animal-name">Click an animal to see details</h2>
+      <p id="animal-description"></p>
+    </div>
+    
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </div>
+
+  <script src="animal.js"></script>
+</body>
+</html>

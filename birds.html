@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birds of Nature</title>
+  <link rel="stylesheet" href="birds.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World of Birds</h1>
+  </header>
+
+  <main class="bird-gallery">
+    <!-- Bird Cards -->
+    <div class="bird" onclick="showBirdInfo('sparrow')">
+      <img src="sparrow.jpg" alt="Sparrow">
+      <p>Sparrow</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('peacock')">
+      <img src="peacock.jpg" alt="Peacock">
+      <p>Peacock</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('eagle')">
+      <img src="eagle.jpg" alt="Eagle">
+      <p>Eagle</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('parrot')">
+      <img src="parrot.jpg" alt="Parrot">
+      <p>Parrot</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('owl')">
+      <img src="owl.jpg" alt="Owl">
+      <p>Owl</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('kingfisher')">
+      <img src="kingfisher.jpg" alt="Kingfisher">
+      <p>Kingfisher</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('woodpecker')">
+      <img src="woodpecker.jpg" alt="Woodpecker">
+      <p>Woodpecker</p>
+    </div>
+    <div class="bird" onclick="showBirdInfo('crane')">
+      <img src="crane.jpg" alt="Crane">
+      <p>Crane</p>
+    </div>
+  </main>
+
+  <section id="bird-info" class="bird-description"></section>
+
+ <a href="index.html" class="back-link">← Back to Home</a>
+
+  <script src="birds.js"></script>
+</body>
+</html>

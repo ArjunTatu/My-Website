@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  font-size: 24px;
+}
+
+.river-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.river {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.river img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.river:hover {
+  transform: scale(1.08);
+}
+
+.river-description {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffffcc;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+  font-size: 18px;
+  color: #1a1a1a;
+  line-height: 1.8;
+}
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  color: #00ffcc;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+

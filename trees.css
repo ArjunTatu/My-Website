@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #a8edea, #fed6e3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+}
+
+.tree-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.tree {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.tree img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tree:hover {
+  transform: scale(1.1);
+}
+
+.tree-description {
+  margin: 30px auto;
+  max-width: 900px;
+  background: #ffffffcc;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  color: #00ffcc;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
